@@ -1,0 +1,35 @@
+{
+	// Music data id
+
+	"id": "finalboss",
+
+
+	// Music file
+
+	"file_name": "finalboss.ogg",
+
+
+	// Music information
+
+	"name": "Final Boss",
+
+	"album": "Final Boss",
+
+	"author": "Nitro Fun",
+
+	
+// Segments
+
+	"segments":
+
+	[
+
+		{ "time": 30 },
+
+		{ "time": 89 },
+
+		{ "time": 118 }
+
+	]
+
+}

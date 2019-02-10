@@ -1,0 +1,12 @@
+{
+	"id": "stutterforce",
+	"name": "Stutter Force",
+	"description": "Don't trust your eyes, you aren't getting 10 fps",
+	"author": "yours truely",	
+	"menuPriority": 40,
+	"selectable": true,
+	"styleId": "stutterforce",
+	"musicId": "ugotme",
+	"luaFile": "Scripts/Levels/stutterforce.lua",
+	"difficultyMults": [0.85, 1.25, 1.4, 1.8, 2, 2.5]
+}

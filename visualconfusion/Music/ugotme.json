@@ -1,0 +1,35 @@
+{
+	// Music data id
+
+	"id": "ugotme",
+
+
+	// Music file
+
+	"file_name": "ugotme.ogg",
+
+
+	// Music information
+
+	"name": "U Got Me",
+
+	"album": "U Got Me",
+
+	"author": "Bossfight",
+
+	
+// Segments
+
+	"segments":
+
+	[
+
+		{ "time": 12 },
+
+		{ "time": 62 },
+
+		{ "time": 117 }
+
+	]
+
+}

@@ -1,0 +1,12 @@
+{
+	"id": "tsunami",
+	"name": "Tsunami",
+	"description": "Dodge the waves!",
+	"author": "yours truely",	
+	"menuPriority": 20,
+	"selectable": true,
+	"styleId": "tsunami",
+	"musicId": "finalboss",
+	"luaFile": "Scripts/Levels/tsunami.lua",
+	"difficultyMults": [0.85, 1.25, 1.4, 1.8, 2, 2.5]
+}
