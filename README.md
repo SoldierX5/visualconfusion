@@ -1,4 +1,6 @@
 # visualconfusion
 A visually confusing pack for Open Hexagon 2.
-Move this to the pack folder in Open Hexagon 2, TEST_RELESAE/Packs .
-Currently in development, more levels will be added soon (e.g. maybe on a weekly basis or every few days).
+Currently in development, more levels will be added soon (e.g. maybe on a weekly basis or every few days). I plan on adding 10 levels as a minimum, maybe more.
+Meant to be played with 3d on.
+
+Installation: First extract the main folder that contains this readme and the file above it to a place of your choosing. After that, copy and paste the visualconfusion folder above this readme to the packs folder in Open Hexagon 2, the file location to copy and paste to will be located in OpenHexagon/TEST_RELESAE/Packs .
