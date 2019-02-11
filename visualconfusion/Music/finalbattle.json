@@ -1,0 +1,35 @@
+{
+	// Music data id
+
+	"id": "finalbattle",
+
+
+	// Music file
+
+	"file_name": "finalbattle.ogg",
+
+
+	// Music information
+
+	"name": "Final Battle",
+
+	"album": "Final Battle",
+
+	"author": "Waterflame",
+
+	
+// Segments
+
+	"segments":
+
+	[
+
+		{ "time": 26 },
+
+		{ "time": 62 },
+
+		{ "time": 147 }
+
+	]
+
+}

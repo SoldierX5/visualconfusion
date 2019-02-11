@@ -1,0 +1,34 @@
+{
+	// Style data id
+	"id": "poseidonswrath",
+
+	// Hue options
+	"hue_min": 0,
+	"hue_max": 0,
+	"hue_ping_pong": false,
+	"hue_increment": 1.0,
+	
+	// Pulse options
+	"pulse_min": 0.0,
+	"pulse_max": 1.5,
+	"pulse_increment": 0.025,
+
+	// 3D options
+	"3D_depth": 10,
+	"3D_skew": 0.25,
+	"3D_spacing": 10.5,
+	
+	// Main color
+	"main": { "main": true, "dynamic": false, "value": [0, 0, 0, 225], "pulse": [255, 0, 0, 184] },
+
+	// Background colors
+	"colors":
+	[
+		{ "dynamic": true, "dynamic_offset": true, "dynamic_darkness": 10.0, "value": [140, 26, 26, 236], "pulse": [0, 0, 0, 0], "offset": 4.2, "hue_shift": 0},
+		{ "dynamic": true, "dynamic_offset": true, "dynamic_darkness": 10.0, "value": [208, 11, 11, 236], "pulse": [0, 0, 0, 0], "offset": 4.2, "hue_shift": 0},
+		{ "dynamic": true, "dynamic_offset": true, "dynamic_darkness": 10.0, "value": [140, 26, 26, 255], "pulse": [0, 0, 0, 0], "offset": 4.2, "hue_shift": 0.0},
+		{ "dynamic": true, "dynamic_offset": true, "dynamic_darkness": 10.0, "value": [137, 0, 0, 243], "pulse": [0, 0, 0, 0], "offset": 4.2, "hue_shift": 0.0},
+		{ "dynamic": true, "dynamic_offset": true, "dynamic_darkness": 10.0, "value": [140, 6, 9, 255], "pulse": [0, 0, 0, 0], "offset": 4.2, "hue_shift": 0.0},
+		{ "dynamic": true, "dynamic_offset": true, "dynamic_darkness": 10.0, "value": [208, 11, 11, 236], "pulse": [0, 0, 0, 0], "offset": 4.2, "hue_shift": 0.0}
+	]
+}

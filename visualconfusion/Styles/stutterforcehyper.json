@@ -1,16 +1,16 @@
 {
 	// Style data id
-	"id": "stutterforce",
+	"id": "stutterforcehyper",
 
 	// Hue options
-	"hue_min": -360,
-	"hue_max": 360,
-	"hue_ping_pong": false,
+	"hue_min": -720,
+	"hue_max": 720,
+	"hue_ping_pong": true,
 	"hue_increment": 6,
 	
 	// Pulse options
 	"pulse_min": 0.0,
-	"pulse_max": 12,
+	"pulse_max": 6,
 	"pulse_increment": 6,
 
 	// 3D options
@@ -27,7 +27,7 @@
 	// Background colors
 	"colors":
 	[
-		{ "dynamic": true, "dynamic_offset": false, "dynamic_darkness": 1.0, "value": [0, 0, 0, 255], "pulse": [5, 5, 5, 0]},
-		{ "dynamic": true, "dynamic_offset": true, "dynamic_darkness": 50.0, "value": [4, 4, 4, 255], "pulse": [0, 0, 0, 0]}
+		{ "dynamic": false, "dynamic_offset": false, "dynamic_darkness": 1.0, "value": [255, 255, 255, 255], "pulse": [0, 0, 0, 0]},
+		{ "dynamic": false, "dynamic_offset": true, "dynamic_darkness": 50.0, "value": [240, 240, 240, 255], "pulse": [0, 0, 0, 0]}
 	]
 }

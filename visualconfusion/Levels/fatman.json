@@ -1,0 +1,12 @@
+{
+	"id": "fatman",
+	"name": "Fat Man",
+	"description": "Hyper version of Little Boy, pretty insane!",
+	"author": "SoldierX5",	
+	"menuPriority": 80,
+	"selectable": true,
+	"styleId": "fatman",
+	"musicId": "finalbattle",
+	"luaFile": "Scripts/Levels/fatman.lua",
+	"difficultyMults": [0.85, 1.2, 1.3]
+}
