@@ -296,3 +296,21 @@ function hmcDefSpinnerSpiralAcc()
 
 	t_wait(getPerfectDelayDM(THICKNESS) * 5.3)
 end
+
+function solarflarespiral()
+	t_wait(getPerfectDelayDM(THICKNESS) * 2.1)
+	t_wait(getPerfectDelayDM(THICKNESS) * 2.1)
+	side = getRandomSide(1)
+	acc = math.random(getRndMinDM(50), getRndMaxDM(100)) / 1000.0 * getRandomDir()
+	min = math.random(getRndMinDM(12), getRndMaxDM(28)) / 10.0 * -1
+	max = math.random(getRndMinDM(12), getRndMaxDM(28)) / 10.0
+
+	t_wait(getPerfectDelayDM(THICKNESS) * 3.1)
+
+	for i = 0, math.random(4, 8) do
+		hmcSimpleSpinnerSAcc(side, 0, acc, min, max, true)
+		t_wait(getPerfectDelay(THICKNESS) * 0.8)
+	end
+
+	t_wait(getPerfectDelayDM(THICKNESS) * 5.3)
+end

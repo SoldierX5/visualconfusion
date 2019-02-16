@@ -32,7 +32,7 @@ function onInit()
 	l_setFastSpin(71.0)
 	l_setSides(6)
 	l_setSidesMin(6)
-	l_setSidesMax(8)
+	l_setSidesMax(7)
 	l_setIncTime(15)
 
 	l_setPulseMin(64)
