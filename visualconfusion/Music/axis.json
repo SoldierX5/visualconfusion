@@ -1,0 +1,35 @@
+{
+	// Music data id
+
+	"id": "axis",
+
+
+	// Music file
+
+	"file_name": "axis.ogg",
+
+
+	// Music information
+
+	"name": "Axis",
+
+	"album": "Axis",
+
+	"author": "Trivecta",
+
+	
+// Segments
+
+	"segments":
+
+	[
+
+		{ "time": 83 },
+
+		{ "time": 121 },
+
+		{ "time": 199 }
+
+	]
+
+}
