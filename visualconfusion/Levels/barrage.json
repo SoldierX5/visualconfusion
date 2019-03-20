@@ -1,0 +1,12 @@
+{
+	"id": "barrage",
+	"name": "Barrage",
+	"description": "Acceleradiant + A bunch of nonsense",
+	"author": "SoldierX5",	
+	"menuPriority": 140,
+	"selectable": true,
+	"styleId": "barrage",
+	"musicId": "massacrev2",
+	"luaFile": "Scripts/Levels/barrage.lua",
+	"difficultyMults": [0.85, 1.25, 1.4]
+}

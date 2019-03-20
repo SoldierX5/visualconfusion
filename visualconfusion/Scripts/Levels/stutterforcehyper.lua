@@ -41,8 +41,8 @@ function onInit()
 	l_setPulseSpeedR(1.34)
 	l_setPulseDelayMax(7)
 
-	l_setBeatPulseMax(15)
-	l_setBeatPulseDelayMax(21.8)
+	l_setBeatPulseMax(35)
+	l_setBeatPulseDelayMax(30)
 
 	enableSwapIfDMGreaterThan(1.4)
 end

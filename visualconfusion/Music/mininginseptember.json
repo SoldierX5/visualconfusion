@@ -1,0 +1,35 @@
+{
+	// Music data id
+
+	"id": "mininginseptember",
+
+
+	// Music file
+
+	"file_name": "mininginseptember.ogg",
+
+
+	// Music information
+
+	"name": "Mining In September",
+	
+	"album": "",
+
+	"author": "Minecraft Awesome Parodys",
+
+	
+// Segments
+
+	"segments":
+
+	[
+
+		{ "time": 17 },
+
+		{ "time": 49 },
+
+		{ "time": 70 }
+
+	]
+
+}

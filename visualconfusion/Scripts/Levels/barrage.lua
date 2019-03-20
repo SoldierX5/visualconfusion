@@ -6,45 +6,43 @@ u_execScript("nextpatterns.lua")
 
 -- this function adds a pattern to the timeline based on a key
 function addPattern(mKey)
-		if mKey == 0 then pInverseBarrage(0)
-	elseif mKey == 1 then pMirrorSpiralDouble(math.random(4, 6), 0)
-	elseif mKey == 2 then pWallExVortex(0, 1, 1)
-	elseif mKey == 3 then pRandomBarrage(math.random(2, 5), 2.25)
-	elseif mKey == 4 then pMirrorSpiral(math.random(2, 4), 0)
+		if mKey == 0 then pACBarrage()
+	elseif mKey == 1 then pACBarrageMulti()
+	elseif mKey == 2 then pACBarrageMultiAltDir()
 	end
 end
 
 -- shuffle the keys, and then call them to add all the patterns
 -- shuffling is better than randomizing - it guarantees all the patterns will be called
-keys = { 0, 0, 1, 1, 2, 2, 3, 3, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4}
+keys = { 0, 0 }
 keys = shuffle(keys)
 index = 0
 
 -- onInit is an hardcoded function that is called when the level is first loaded
 function onInit()
-	l_setSpeedMult(2.80)
-	l_setSpeedInc(0.045)
-	l_setRotationSpeed(0.47)
-	l_setRotationSpeedMax(1.75)
-	l_setRotationSpeedInc(0.045)
+	l_setSpeedMult(2.25)
+	l_setSpeedInc(0.025)
+	l_setRotationSpeed(0.75)
+	l_setRotationSpeedMax(0.7)
+	l_setRotationSpeedInc(0)
 	l_setDelayMult(1.1)
 	l_setDelayInc(-0.01)
-	l_setFastSpin(71.0)
+	l_setFastSpin(100.0)
 	l_setSides(6)
-	l_setSidesMin(6)
+	l_setSidesMin(5)
 	l_setSidesMax(7)
-	l_setIncTime(15)
+	l_setIncTime(30)
 
-	l_setPulseMin(64)
-	l_setPulseMax(84)
-	l_setPulseSpeed(1.05)
+	l_setPulseMin(66)
+	l_setPulseMax(99)
+	l_setPulseSpeed(5.05)
 	l_setPulseSpeedR(1.34)
 	l_setPulseDelayMax(7)
 
-	l_setBeatPulseMax(35)
+	l_setBeatPulseMax(50)
 	l_setBeatPulseDelayMax(30)
 
-	enableSwapIfDMGreaterThan(1.4)
+	enableSwapIfDMGreaterThan(1.25)
 end
 
 -- onLoad is an hardcoded function that is called when the level is started/restarted
@@ -83,7 +81,7 @@ function onUpdate(mFrameTime)
 		-- do not change direction while fast spinning
 		if u_isFastSpinning() == false then
 			l_setRotationSpeed(l_getRotationSpeed() * -1.0)
-			dirChangeTime = 400
+			dirChangeTime = 40
 		end
 	end 
 
