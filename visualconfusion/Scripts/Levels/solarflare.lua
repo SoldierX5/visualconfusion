@@ -20,7 +20,7 @@ end
 
 -- shuffle the keys, and then call them to add all the patterns
 -- shuffling is better than randomizing - it guarantees all the patterns will be called
-keys = { 0, 0, 0, 1, 2, 3, 3, 3, 4, 4, 5, 6, 7 }
+keys = { 0, 0, 0, 1, 2, 3, 3, 3, 4, 4, 5, 6, 7, 8, 8, 8, 8 }
 keys = shuffle(keys)
 index = 0
 

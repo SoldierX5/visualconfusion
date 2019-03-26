@@ -5,16 +5,17 @@ u_execScript("commonpatterns.lua")
 
 -- this function adds a pattern to the timeline based on a key
 function addPattern(mKey)
-		if mKey == 0 then pAltBarrage(math.random(2, 3), 2) 
+		if mKey == 0 then pAltBarrage(math.random(1, 10), 2) 
 	elseif mKey == 1 then pBarrageSpiral(3, 0.6, 1)
 	elseif mKey == 2 then pInverseBarrage(0)
-	elseif mKey == 3 then pTunnel(math.random(1, 3))
-	elseif mKey == 4 then pMirrorWallStrip(1, 0)
-	elseif mKey == 5 then pWallExVortex(0, math.random(1, 2), 1)
+	elseif mKey == 3 then pTunnel(math.random(1, 5))
+	elseif mKey == 4 then pMirrorWallStrip(1, math.random(0, 1), 0)
+	elseif mKey == 5 then pWallExVortex(0, math.random(0, 0), 1)
 	elseif mKey == 6 then pDMBarrageSpiral(math.random(4, 7), 0.4, 1)
 	elseif mKey == 7 then pRandomBarrage(math.random(2, 5), 2.25)
-	elseif mKey == 8 then pMirrorSpiralDouble(math.random(4, 6), 0)
+	elseif mKey == 8 then pMirrorSpiralDouble(math.random(1, 2), 0)
 	elseif mKey == 9 then pMirrorSpiral(math.random(2, 4), 0)
+	elseif mKey == 10 then pWallExVortex(0, math.random(3, 3), 1)
 	end
 end
 

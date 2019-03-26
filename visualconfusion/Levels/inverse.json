@@ -1,0 +1,12 @@
+{
+	"id": "inverse",
+	"name": "Inverse",
+	"description": "inverse",
+	"author": "SoldierX5",	
+	"menuPriority": 150,
+	"selectable": true,
+	"styleId": "inverse",
+	"musicId": "adventuretime",
+	"luaFile": "Scripts/Levels/inverse.lua",
+	"difficultyMults": [0.75, 1.25, 1.5]
+}

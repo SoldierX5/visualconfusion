@@ -1,0 +1,37 @@
+{
+	// Music data id
+
+	"id": "adventuretime",
+
+
+	// Music file
+
+	"file_name": "adventuretime.ogg",
+
+
+	// Music information
+
+	"name": "Adventure Time",
+
+	"album": "Monstercat 010 - Conquest",
+
+	"author": "Rouge",
+
+	
+// Segments
+
+	"segments":
+
+	[
+
+		{ "time": 0 },
+
+		{ "time": 77 },
+
+		{ "time": 88 },
+		
+		{ "time": 118 }
+
+	]
+
+}
