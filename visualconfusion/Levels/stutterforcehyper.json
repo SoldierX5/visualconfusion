@@ -8,5 +8,5 @@
 	"styleId": "stutterforcehyper",
 	"musicId": "ugotme",
 	"luaFile": "Scripts/Levels/stutterforcehyper.lua",
-	"difficultyMults": [0.85, 1.2, 1.4, 1.6]
+	"difficultyMults": [0.75, 1.25, 1.5, 1.75]
 }

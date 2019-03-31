@@ -8,5 +8,5 @@
 	"styleId": "solarflare",
 	"musicId": "elevatia",
 	"luaFile": "Scripts/Levels/solarflare.lua",
-	"difficultyMults": [1.3, 1.6, 0.3, 0.6]
+	"difficultyMults": [1.25, 1.5, 0.25, 0.5, 0.75]
 }

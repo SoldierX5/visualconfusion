@@ -8,5 +8,5 @@
 	"styleId": "frenzy",
 	"musicId": "axis",
 	"luaFile": "Scripts/Levels/frenzy.lua",
-	"difficultyMults": [0.6, 0.85, 1.2, 1.35]
+	"difficultyMults": [0.5, 0.75, 1.25, 1.5]
 }

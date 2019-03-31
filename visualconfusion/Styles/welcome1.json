@@ -25,7 +25,7 @@
 	"colors":
 	[
 		{ "dynamic": true, "dynamic_offset": true, "dynamic_darkness": 10.0, "value": [255, 255, 255, 255], "pulse": [0, 0, 0, 0], "offset": 4.2, "hue_shift": 25.0},
-		{ "dynamic": true, "dynamic_offset": true, "dynamic_darkness": 10.0, "value": [255, 255, 255, 255], "pulse": [0, 0, 0, 0], "offset": 4.2, "hue_shift": 25.0},
+		{ "dynamic": true, "dynamic_offset": true, "dynamic_darkness": 10.0, "value": [255, 255, 255, 255], "pulse": [0, 0, 0, 0], "offset": 4.2, "hue_shift": 25.0}
 	]
 	
 	

@@ -1,0 +1,18 @@
+{
+	// Music data id
+	"id": "hotpursuit",
+
+	// Music file
+	"file_name": "hotpursuit.ogg",
+
+	// Music information
+	"name": "Hot Pursuit",
+	"album": "Monstercat 019 - Endeavour",
+	"author": "Tut Tut Child",
+	
+	// Segments
+	"segments":
+	[
+		{ "time": 0 }
+	]
+}

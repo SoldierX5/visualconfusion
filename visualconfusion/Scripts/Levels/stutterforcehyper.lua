@@ -7,16 +7,17 @@ u_execScript("nextpatterns.lua")
 -- this function adds a pattern to the timeline based on a key
 function addPattern(mKey)
 		if mKey == 0 then pInverseBarrage(0)
-	elseif mKey == 1 then pMirrorSpiralDouble(math.random(4, 6), 0)
-	elseif mKey == 2 then pWallExVortex(0, 1, 1)
+	elseif mKey == 1 then pMirrorSpiralDouble(math.random(1, 9), 0)
+	elseif mKey == 2 then pWallExVortex(0, math.random(0, 4), 1)
 	elseif mKey == 3 then pRandomBarrage(math.random(2, 5), 2.25)
-	elseif mKey == 4 then pMirrorSpiral(math.random(2, 4), 0)
+	elseif mKey == 4 then pMirrorSpiral(math.random(0, 5), 0)
+	elseif mKey == 5 then pTunnel(math.random(1, 5))
 	end
 end
 
 -- shuffle the keys, and then call them to add all the patterns
 -- shuffling is better than randomizing - it guarantees all the patterns will be called
-keys = { 0, 0, 1, 1, 2, 2, 3, 3, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4}
+keys = { 0, 0, 1, 1, 2, 2, 3, 3, 0, 0, 0, 0, 4, 4, 4, 5, 5}
 keys = shuffle(keys)
 index = 0
 

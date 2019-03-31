@@ -9,7 +9,6 @@ u_execScript("evolutionpatterns.lua")
 function addPattern(mKey) 
 	    if mKey == 0 then pMirrorWallStrip(1, 0)
 	elseif mKey == 1 then hmcDefSpinner()
-	elseif mKey == 2 then solarflarespiral()
 	elseif mKey == 3 then pMirrorSpiralDouble(math.random(1, 2), 4)
 	elseif mKey == 4 then rWallEx(math.random(0, l_getSides()), math.random(1, 2)) t_wait(getPerfectDelay(THICKNESS) * 2.8)
 	elseif mKey == 5 then pMirrorWallStrip(1, 2)
@@ -20,7 +19,7 @@ end
 
 -- shuffle the keys, and then call them to add all the patterns
 -- shuffling is better than randomizing - it guarantees all the patterns will be called
-keys = { 0, 0, 0, 1, 2, 2, 3, 3, 3, 4, 4, 5, 6, 7 }
+keys = { 0, 0, 0, 1, 3, 3, 3, 4, 4, 5, 6, 7 }
 keys = shuffle(keys)
 index = 0
 

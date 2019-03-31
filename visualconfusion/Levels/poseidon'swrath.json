@@ -8,5 +8,5 @@
 	"styleId": "poseidonswrath",
 	"musicId": "finalboss",
 	"luaFile": "Scripts/Levels/poseidonswrath.lua",
-	"difficultyMults": [0.85, 1.25, 1.4, 1.6]
+	"difficultyMults": [0.75, 1.25, 1.5, 1.75]
 }
