@@ -1,0 +1,39 @@
+{
+	// Music data id
+
+	"id": "annihilate",
+
+
+	// Music file
+
+	"file_name": "annihilate.ogg",
+
+
+	// Music information
+
+	"name": "Annihilate",
+
+	"album": "The Invasion",
+
+	"author": "Destroid",
+
+	
+// Segments
+
+	"segments":
+
+	[
+
+		{ "time": 0 },
+
+		{ "time": 30 },
+
+		{ "time": 94 },
+		
+		{ "time": 139 },
+		
+		{ "time": 199 }
+
+	]
+
+}

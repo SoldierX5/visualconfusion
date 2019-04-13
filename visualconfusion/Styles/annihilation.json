@@ -1,0 +1,31 @@
+{
+	// Style data id
+	"id": "annihilation",
+
+	// Hue options
+	"hue_min" : 357,
+	"hue_max": 362,
+	"hue_ping_pong": true,
+	"hue_increment": 1.0,
+	
+	// Pulse options
+	"pulse_min": 0.0,
+	"pulse_max": 1.8,
+	"pulse_increment": 0.4,
+
+	// 3D options
+	"3D_depth": 2,
+	"3D_skew": 0.15,
+	"3D_spacing": 10.5,
+	
+	// Main color
+	"main": { "main": true, "dynamic": false, "value": [0, 0, 0, 255], "pulse": [185, 0, 0, 255] },
+
+	// Background colors
+	"colors":
+	[
+		{ "dynamic": false, "dynamic_offset": false, "dynamic_darkness": 1.0, "value": [10, 10, 10, 255], "pulse": [0, 0, 0, 0]},
+		{ "dynamic": true, "dynamic_offset": false, "dynamic_darkness": 1.0, "value": [20, 20, 20, 255], "pulse": [255, 255, 255, 0]},
+		{ "dynamic": false, "dynamic_offset": false, "dynamic_darkness": 1.0, "value": [10, 10, 10, 255], "pulse": [0, 0, 0, 0]}
+	]
+}

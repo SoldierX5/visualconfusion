@@ -19,7 +19,7 @@ end
 
 -- shuffle the keys, and then call them to add all the patterns
 -- shuffling is better than randomizing - it guarantees all the patterns will be called
-keys = { 0, 0, 0, 1, 3, 3, 3, 4, 4, 5, 6, 7, 8, 8, 8, 8 }
+keys = { 0, 0, 0, 1, 3, 3, 3, 4, 4, 5, 6, 7 }
 keys = shuffle(keys)
 index = 0
 
@@ -27,28 +27,27 @@ special = "none"
 
 -- onInit is an hardcoded function that is called when the level is first loaded
 function onInit()
-	l_setSpeedMult(2.6)
-	l_setSpeedInc(0.04)
+	l_setSpeedMult(3)
 	l_setSpeedInc(0.04)
 	l_setRotationSpeed(0.3)
-	l_setRotationSpeedMax(0.6)
-	l_setRotationSpeedInc(0.035)
+	l_setRotationSpeedMax(0.8)
+	l_setRotationSpeedInc(0.025)
 	l_setDelayMult(1.35)
 	l_setDelayInc(0.0)
 	l_setFastSpin(71.0)
-	l_setSides(64)
-	l_setSidesMin(64)
-	l_setSidesMax(64)
+	l_setSides(16)
+	l_setSidesMin(16)
+	l_setSidesMax(16)
 	l_setIncTime(10)
 
-	l_setPulseMin(1)
-	l_setPulseMax(1)
-	l_setPulseSpeed(1)
-	l_setPulseSpeedR(1)
-	l_setPulseDelayMax(1)
+	l_setPulseMin(60)
+	l_setPulseMax(80)
+	l_setPulseSpeed(2.4)
+	l_setPulseSpeedR(1.45)
+	l_setPulseDelayMax(6.8)
 
-	l_setBeatPulseMax(1)
-	l_setBeatPulseDelayMax(1)
+	l_setBeatPulseMax(18)
+	l_setBeatPulseDelayMax(18.8)
 
 	l_setSwapEnabled(true)
 end
