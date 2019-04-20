@@ -3,7 +3,7 @@
 	"name": "Annihilation",
 	"description": "Annihilation inevitable - Calculating best course of action: \n \nRun",
 	"author": "SoldierX5",	
-	"menuPriority": 170,
+	"menuPriority": 180,
 	"selectable": true,
 	"styleId": "annihilation",
 	"musicId": "annihilate",

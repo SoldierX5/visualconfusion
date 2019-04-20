@@ -3,7 +3,7 @@
 	"name": "Black Hole",
 	"description": "This level ends at 258 seconds, but you are \nable to continue on after the time limit for a \nbetter high score.",
 	"author": "SoldierX5",	
-	"menuPriority": 160,
+	"menuPriority": 170,
 	"selectable": true,
 	"styleId": "blackhole",
 	"musicId": "hotpursuit",

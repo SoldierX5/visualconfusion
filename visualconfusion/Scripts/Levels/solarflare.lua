@@ -19,7 +19,7 @@ end
 
 -- shuffle the keys, and then call them to add all the patterns
 -- shuffling is better than randomizing - it guarantees all the patterns will be called
-keys = { 0, 0, 0, 1, 3, 3, 3, 4, 4, 5, 6, 7 }
+keys = { 0, 0, 0, 1, 4, 4, 5, 6, 7 }
 keys = shuffle(keys)
 index = 0
 
@@ -35,9 +35,9 @@ function onInit()
 	l_setDelayMult(1.35)
 	l_setDelayInc(0.0)
 	l_setFastSpin(71.0)
-	l_setSides(16)
-	l_setSidesMin(16)
-	l_setSidesMax(16)
+	l_setSides(10)
+	l_setSidesMin(10)
+	l_setSidesMax(10)
 	l_setIncTime(10)
 
 	l_setPulseMin(60)

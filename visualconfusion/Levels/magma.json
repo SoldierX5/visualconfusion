@@ -1,0 +1,12 @@
+{
+	"id": "magma",
+	"name": "Magma",
+	"description": "Hyper version of Sludge",
+	"author": "SoldierX5",	
+	"menuPriority": 160,
+	"selectable": true,
+	"styleId": "magma",
+	"musicId": "adventuretime",
+	"luaFile": "Scripts/Levels/magma.lua",
+	"difficultyMults": [0.75, 1.25, 1.5]
+}
