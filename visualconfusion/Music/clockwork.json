@@ -1,0 +1,39 @@
+{
+	// Music data id
+
+	"id": "clockwork",
+
+
+	// Music file
+
+	"file_name": "clockwork.ogg",
+
+
+	// Music information
+
+	"name": "Clockwork",
+
+	"album": "Lies",
+
+	"author": "Hyper",
+
+	
+// Segments
+
+	"segments":
+
+	[
+
+		{ "time": 44 },
+
+		{ "time": 91 },
+
+		{ "time": 169 },
+		
+		{ "time": 187 },
+		
+		{ "time": 225 }
+
+	]
+
+}
