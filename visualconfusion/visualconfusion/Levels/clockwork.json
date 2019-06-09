@@ -1,0 +1,12 @@
+{
+	"id": "clockwork",
+	"name": "Clockwork",
+	"description": "Good luck \n \nYou'll need it...",
+	"author": "SoldierX5",	
+	"menuPriority": 190,
+	"selectable": true,
+	"styleId": "clockwork",
+	"musicId": "clockwork",
+	"luaFile": "Scripts/Levels/clockwork.lua",
+	"difficultyMults": [0.5, 0.75, 1.25]
+}

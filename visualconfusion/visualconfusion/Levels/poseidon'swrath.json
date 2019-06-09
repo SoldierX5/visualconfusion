@@ -1,0 +1,12 @@
+{
+	"id": "poseidonswrath",
+	"name": "Poseidon's Wrath",
+	"description": "Hyper version of tsunami, run from the waves!!",
+	"author": "SoldierX5",	
+	"menuPriority": 40,
+	"selectable": true,
+	"styleId": "poseidonswrath",
+	"musicId": "finalboss",
+	"luaFile": "Scripts/Levels/poseidonswrath.lua",
+	"difficultyMults": [0.75, 1.25, 1.5, 1.75]
+}

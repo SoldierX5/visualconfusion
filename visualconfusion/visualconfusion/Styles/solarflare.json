@@ -1,0 +1,38 @@
+{
+	// Style data id
+	"id": "solarflare",
+
+	// Hue options
+	"hue_min": 10,
+	"hue_max": 30,
+	"hue_ping_pong": true,
+	"hue_increment": 2.0,
+	
+	// Pulseb options
+	"pulse_min": 0.0,
+	"pulse_max": 2,
+	"pulse_increment": 0.5,
+
+	// 3D options
+	"3D_depth": 4,
+	"3D_skew": 0.15,
+	"3D_spacing": 3,
+
+	// Main color
+	"main": { "main": true, "dynamic": true, "value": [255, 255, 255, 255], "pulse": [255, 180, 0, 255] },
+
+	// Background colors
+	"colors":
+	[
+		{ "dynamic": false, "value": [0, 0, 0, 255], "pulse": [0, 0, 0, 0]},
+		{ "dynamic": false, "value": [0, 0, 2, 255], "pulse": [4, 2, 0, 0]},
+		{ "dynamic": false, "value": [0, 0, 0, 255], "pulse": [4, 2, 0, 0]},
+		{ "dynamic": false, "value": [0, 0, 0, 255], "pulse": [6, 3, 0, 0]},
+		{ "dynamic": false, "value": [0, 0, 8, 255], "pulse": [6, 3, 0, 0]},
+		{ "dynamic": false, "value": [0, 0, 8, 255], "pulse": [6, 3, 0, 0]},
+		{ "dynamic": false, "value": [0, 0, 6, 255], "pulse": [6, 3, 0, 0]},
+		{ "dynamic": false, "value": [0, 0, 0, 255], "pulse": [2, 2, 0, 0]},
+		{ "dynamic": false, "value": [0, 0, 2, 255], "pulse": [2, 2, 0, 0]},
+		{ "dynamic": false, "value": [0, 0, 0, 255], "pulse": [0, 0, 0, 0]}
+	]
+}

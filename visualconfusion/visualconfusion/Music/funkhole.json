@@ -1,0 +1,39 @@
+{
+	// Music data id
+
+	"id": "funkhole",
+
+
+	// Music file
+
+	"file_name": "funkhole.ogg",
+
+
+	// Music information
+
+	"name": "Funk Hole",
+
+	"album": "The Invasion",
+
+	"author": "Destroid",
+
+	
+// Segments
+
+	"segments":
+
+	[
+
+		{ "time": 28 },
+
+		{ "time": 35 },
+
+		{ "time": 44 },
+		
+		{ "time": 62 },
+		
+		{ "time": 77 }
+
+	]
+
+}

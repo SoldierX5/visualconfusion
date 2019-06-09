@@ -1,0 +1,12 @@
+{
+	"id": "annihilation",
+	"name": "Annihilation",
+	"description": "Annihilation inevitable - Calculating best course of action: \n \nRun",
+	"author": "SoldierX5",	
+	"menuPriority": 180,
+	"selectable": true,
+	"styleId": "annihilation",
+	"musicId": "annihilate",
+	"luaFile": "Scripts/Levels/annihilation.lua",
+	"difficultyMults": [0.5, 0.75, 1.25, 1.5, 1.75]
+}

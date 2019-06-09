@@ -1,0 +1,12 @@
+{
+	"id": "littleboy",
+	"name": "Little Boy",
+	"description": "Quite the amount of energy inside a uranium-235 isotope.",
+	"author": "SoldierX5",	
+	"menuPriority": 70,
+	"selectable": true,
+	"styleId": "littleboy",
+	"musicId": "finalbattle",
+	"luaFile": "Scripts/Levels/littleboy.lua",
+	"difficultyMults": [0.75, 1.25, 1.5]
+}

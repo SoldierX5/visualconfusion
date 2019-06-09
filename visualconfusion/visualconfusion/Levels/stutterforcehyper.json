@@ -1,0 +1,12 @@
+{
+	"id": "stutterforcehyper",
+	"name": "Stutter Stress",
+	"description": "Hyper version of Stutter Force, \nnow with even more stutter!",
+	"author": "SoldierX5",	
+	"menuPriority": 60,
+	"selectable": true,
+	"styleId": "stutterforcehyper",
+	"musicId": "ugotme",
+	"luaFile": "Scripts/Levels/stutterforcehyper.lua",
+	"difficultyMults": [0.75, 1.25, 1.5, 1.75]
+}

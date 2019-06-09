@@ -1,0 +1,35 @@
+{
+	// Music data id
+
+	"id": "elevatia",
+
+
+	// Music file
+
+	"file_name": "elevatia.ogg",
+
+
+	// Music information
+
+	"name": "Elevatia",
+	
+	"album": "Elevatia",
+
+	"author": "Bossfight",
+
+	
+// Segments
+
+	"segments":
+
+	[
+
+		{ "time": 18 },
+
+		{ "time": 58 },
+
+		{ "time": 180 }
+
+	]
+
+}

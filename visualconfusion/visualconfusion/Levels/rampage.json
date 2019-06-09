@@ -1,0 +1,12 @@
+{
+	"id": "rampage",
+	"name": "Rampage",
+	"description": "Got something in your eye?",
+	"author": "SoldierX5",	
+	"menuPriority": 110,
+	"selectable": true,
+	"styleId": "rampage",
+	"musicId": "axis",
+	"luaFile": "Scripts/Levels/rampage.lua",
+	"difficultyMults": [0.5, 0.75, 1.25, 1.5, 1.75]
+}

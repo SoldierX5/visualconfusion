@@ -1,0 +1,33 @@
+{
+	// Style data id
+	"id": "stutterforce",
+
+	// Hue options
+	"hue_min": -360,
+	"hue_max": 360,
+	"hue_ping_pong": false,
+	"hue_increment": 6,
+	
+	// Pulse options
+	"pulse_min": 0.0,
+	"pulse_max": 12,
+	"pulse_increment": 6,
+
+	// 3D options
+	"3D_depth": 800,
+	"3D_skew": 0.1,
+	"3D_spacing": 0.5,
+	"3D_darken_multiplier": 0.5,
+	"3D_alpha_multiplier": 5.9,
+	"3D_alpha_falloff": 16.0,
+
+	// Main color
+	"main": { "main": true, "dynamic": true, "value": [255, 255, 255, 255], "pulse": [255, 255, 255, 0] },
+
+	// Background colors
+	"colors":
+	[
+		{ "dynamic": true, "dynamic_offset": false, "dynamic_darkness": 1.0, "value": [0, 0, 0, 255], "pulse": [5, 5, 5, 0]},
+		{ "dynamic": true, "dynamic_offset": true, "dynamic_darkness": 50.0, "value": [4, 4, 4, 255], "pulse": [0, 0, 0, 0]}
+	]
+}

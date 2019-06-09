@@ -1,0 +1,12 @@
+{
+	"id": "frenzy",
+	"name": "Frenzy",
+	"description": "Hyper version of Rampage",
+	"author": "SoldierX5",	
+	"menuPriority": 120,
+	"selectable": true,
+	"styleId": "frenzy",
+	"musicId": "axis",
+	"luaFile": "Scripts/Levels/frenzy.lua",
+	"difficultyMults": [0.5, 0.75, 1.25, 1.5]
+}

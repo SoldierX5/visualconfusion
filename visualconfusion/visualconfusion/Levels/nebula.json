@@ -1,0 +1,12 @@
+{
+	"id": "nebula",
+	"name": "Nebula",
+	"description": "",
+	"author": "SoldierX5",	
+	"menuPriority": 100,
+	"selectable": true,
+	"styleId": "nebula",
+	"musicId": "elevatia",
+	"luaFile": "Scripts/Levels/nebula.lua",
+	"difficultyMults": [1.25, 1.5, 0.5, 0.75]
+}
