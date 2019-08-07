@@ -1,0 +1,33 @@
+{
+	// Music data id
+
+	"id": "flatline",
+
+
+	// Music file
+
+	"file_name": "flatline.ogg",
+
+
+	// Music information
+
+	"name": "Flatline",
+
+	"album": "Cyberpunk EP",
+
+	"author": "Hyper",
+
+	
+// Segments
+
+	"segments":
+
+	[
+
+		{ "time": 28 },
+
+		{ "time": 162 }
+
+	]
+
+}

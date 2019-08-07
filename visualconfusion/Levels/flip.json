@@ -1,12 +1,12 @@
 {
-	"id": "seizure",
-	"name": "A Seizure Inducing Mess",
-	"description": "(Bonus Level) \nDefinitely do not play if you have epilepsy",
+	"id": "flip",
+	"name": "Flip",
+	"description": "(Bonus Level) \nit flips!",
 	"author": "SoldierX5",	
-	"menuPriority": 200,
+	"menuPriority": 210,
 	"selectable": true,
-	"styleId": "seizure",
-	"musicId": "funkhole",
-	"luaFile": "Scripts/Levels/seizure.lua",
-	"difficultyMults": [0.5, 0.75, 1.25]
+	"styleId": "flip",
+	"musicId": "flatline",
+	"luaFile": "Scripts/Levels/flip.lua",
+	"difficultyMults": [0.75, 1.25]
 }

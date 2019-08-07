@@ -27,35 +27,35 @@ index = 0
 
 -- onInit is an hardcoded function that is called when the level is first loaded
 function onInit()
-	l_setSpeedMult(2.3)
+	l_setSpeedMult(2.6)
 	l_setSpeedInc(0.3)
-	l_setRotationSpeed(1.4)
-	l_setRotationSpeedMax(1.4)
-	l_setRotationSpeedInc(1)
+	l_setRotationSpeed(0.1)
+	l_setRotationSpeedMax(4)
+	l_setRotationSpeedInc(0)
 	l_setDelayMult(1.07)
 	l_setDelayInc(0.0)
-	l_setFastSpin(100.0)
+	l_setFastSpin(71.0)
 	l_setSides(6)
 	l_setSidesMin(6)
 	l_setSidesMax(6)
-	l_setIncTime(20)
+	l_setIncTime(10)
 
-	l_setPulseMin(60)
-	l_setPulseMax(120)
-	l_setPulseSpeed(40.0)
+	l_setPulseMin(70)
+	l_setPulseMax(100)
+	l_setPulseSpeed(50.0)
 	l_setPulseSpeedR(1.5)
-	l_setPulseDelayMax(1)
+	l_setPulseDelayMax(0.5)
 
-	l_setBeatPulseMax(-20)
-	l_setBeatPulseDelayMax(0.001)
+	l_setBeatPulseMax(-10)
+	l_setBeatPulseDelayMax(0.000000000001)
 
 	enableSwapIfDMGreaterThan(1)
 end
 
 -- onLoad is an hardcoded function that is called when the level is started/restarted
 function onLoad()
-	e_eventWaitS(43)
-	m_messageAddImportant("If you're reading this, then damn, \nyou're either extremely good at this game\n or reading the scripts to this level", 200)
+	e_eventWaitS(12.5)
+	m_messageAddImportant("flip!", 80)
 end
 
 -- onStep is an hardcoded function that is called when the level timeline is empty
@@ -71,6 +71,10 @@ end
 
 -- onIncrement is an hardcoded function that is called when the level difficulty is incremented
 function onIncrement()
+	l_setRotationSpeed(4)
+	l_setBeatPulseMax(60)
+	l_setBeatPulseDelayMax(10)
+	l_setIncTime(300)
 end
 
 -- onUnload is an hardcoded function that is called when the level is closed/restarted
@@ -87,7 +91,7 @@ function onUpdate(mFrameTime)
 		-- do not change direction while fast spinning
 		if u_isFastSpinning() == false then
 			l_setRotationSpeed(l_getRotationSpeed() * -1.0)
-			dirChangeTime = 2.5
+			dirChangeTime = 1
 		end
 	end 
 end
