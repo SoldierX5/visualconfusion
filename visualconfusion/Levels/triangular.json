@@ -1,0 +1,12 @@
+{
+	"id": "triangular",
+	"name": "Triangular",
+	"description": "(Bonus Level) \n(it may or may not immediatly kill you at the start lol)",
+	"author": "SoldierX5",	
+	"menuPriority": 220,
+	"selectable": true,
+	"styleId": "triangular",
+	"musicId": "timespender",
+	"luaFile": "Scripts/Levels/triangular.lua",
+	"difficultyMults": [0.75, 1.25]
+}
